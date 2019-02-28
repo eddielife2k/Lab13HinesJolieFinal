@@ -10,11 +10,11 @@ public abstract class CarBridge<E> implements Bridge<E>
     protected E speedLimit;
     public CarBridge(E len, String[] mat, E h, E wl, int nL, E sL) {
         length = len;
-        mat = materials;
-        h = height;
-        wl = weightLimit;
-        nL = numLanes;
-        sL = speedLimit;
+        materials = mat;
+        height = h;
+        weightLimit = wl;
+        numLanes = nL;
+        speedLimit = sL;
     }
     public void bridgeLength(E len) {
         len = length;
