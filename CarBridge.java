@@ -1,8 +1,9 @@
 
+
 public abstract class CarBridge<E> implements Bridge<E>
 {
     protected E length;
-    protected String[] materials;
+    protected String[] materials = new String[2];
     protected E height;
     protected E weightLimit;
     protected int numLanes;
