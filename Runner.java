@@ -1,7 +1,8 @@
 public class Runner
 {
     public static void main(String args[]) {
-       String[] m1 = {"Brick", "Concrete"};
+       String[] m1 = {"Steel", "Cable"};
+       String[] m2 = {"Brick", "Concrete"};
        double[] ten = {50.1, 22.35};
         String arcRad = "180";
        SuspensionBridge<String> b1 = new SuspensionBridge<String>("Very Long", m1, "Very Tall", 
