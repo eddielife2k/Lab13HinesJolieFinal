@@ -12,7 +12,14 @@ public class Runner
        b1.getWeightLimit() + " The bridge has " + b1.getNumLanes() + " lanes. Please go at " + 
        b1.getSpeedLimit() + ". \nThe tensions on the bridge are " + b1.getTensions());
        
-       
+        System.out.println();
+        
+       CantileverBridge<String>b2 = new CantileverBridge<String>("200",m1,"100","weight limit: 100,000 lbs",
+       4, "60 mph", cantileverLength);
+       System.out.println("The bridge is " + b2.getBridgeLength() + "ft long and " + b2.getBridgeHeight() + "ft tall . \n" 
+    + b2.getWeightLimit() + "\n Num Lanes: " + b2.getNumLanes() + "\n materials: " + b2.getMaterials() + "\n speedlimit: "
+    + b2.getSpeedLimit() + "\n Cantilever Length: " + b2.getCantileverLength());
+    
        System.out.println();
        
         ArchBridge<String> b3 = new ArchBridge<String>("100",m2,"50","weight limit: 30,000 lbs",
