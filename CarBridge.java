@@ -1,3 +1,4 @@
+
 public abstract class CarBridge<E> implements Bridge<E>
 {
     protected E length;
@@ -55,9 +56,6 @@ public abstract class CarBridge<E> implements Bridge<E>
         return speedLimit;
     }
     public abstract void tensions(double[] ten);
-    public abstract String getTensions();
     public abstract void cantileverLength(E len);
-    public abstract E getCantileverLength();
     public abstract void arcRad(E rad);
-    public abstract E getArcRad();
 }
